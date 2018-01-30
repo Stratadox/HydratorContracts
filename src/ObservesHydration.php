@@ -8,13 +8,13 @@ namespace Stratadox\Hydrator;
  * @author Stratadox
  * @package Stratadox\Hydrate
  */
-interface ListensToHydration
+interface ObservesHydration
 {
     /**
-     * This method will be called by the hydrator on the registered listener.
+     * This method will be called by the hydrator on the registered observer.
      *
-     * Not all hydrators accept listeners. Hydrators that do accept one or more
-     * listeners will offer constructor methods that accepts (an) argument(s) of
+     * Not all hydrators accept observers. Hydrators that do accept one or more
+     * observers will offer constructor methods that accepts (an) argument(s) of
      * this interface.
      *
      * @param object $theInstance   The instance that is being hydrated.
