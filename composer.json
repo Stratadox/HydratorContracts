@@ -1,5 +1,5 @@
 {
-    "name": "stratadox/hydration",
+    "name": "stratadox/hydrator-contracts",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Stratadox\\Hydration\\": "src"
+            "Stratadox\\Hydrator\\": "src"
         }
     },
     "require": {
