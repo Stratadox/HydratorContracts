@@ -1,6 +1,6 @@
 <?php
 
-namespace Stratadox\Hydration;
+namespace Stratadox\Hydrator;
 
 use Throwable;
 

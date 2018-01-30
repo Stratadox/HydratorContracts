@@ -1,6 +1,6 @@
 <?php
 
-namespace Stratadox\Hydration;
+namespace Stratadox\Hydrator;
 
 /**
  * Hydrates an instance of a class, based on an array of property data.
