@@ -10,6 +10,6 @@ use Throwable;
  * @author Stratadox
  * @package Stratadox\Hydrate
  */
-interface CouldNotHydrate extends Throwable
+interface CannotHydrate extends Throwable
 {
 }

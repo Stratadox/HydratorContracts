@@ -17,9 +17,9 @@ interface Hydrates
      * The recommended way of defining the hydrated class is passing it to the
      * constructor.
      *
-     * @param array $input     The input data.
-     * @return mixed|object    The hydrated instance.
-     * @throws CouldNotHydrate When the input data could not be hydrated.
+     * @param array $input   The input data.
+     * @return mixed|object  The hydrated instance.
+     * @throws CannotHydrate When the input data could not be hydrated.
      */
     public function fromArray(array $input);
 }
