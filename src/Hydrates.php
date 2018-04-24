@@ -22,4 +22,13 @@ interface Hydrates
      * @throws CannotHydrate When the input data could not be hydrated.
      */
     public function fromArray(array $input);
+
+    /**
+     * Retrieves the class that would be used for hydrating the array.
+     *
+     * @param array $input   The input data.
+     * @return string        The class that would be instantiated for this data.
+     * @throws CannotHydrate When the data is insufficient to decide on a class.
+     */
+    public function classFor(array $input): string;
 }
