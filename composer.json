@@ -1,18 +1,21 @@
 {
-    "name": "stratadox/hydrator-contracts",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Stratadox",
-            "homepage": "http://www.stratadox.com/"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Stratadox\\Hydrator\\": "src"
-        }
-    },
-    "require": {
-        "php": ">=7.1"
+  "name": "stratadox/hydrator-contracts",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stratadox",
+      "homepage": "http://www.stratadox.com/"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Stratadox\\Hydrator\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "suggest": {
+    "stratadox/hydrator": "For loading objects according to this interface."
+  }
 }
