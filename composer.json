@@ -13,9 +13,9 @@
     }
   },
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.2"
   },
   "suggest": {
-    "stratadox/hydrator": "For loading objects according to this interface."
+    "stratadox/hydrator": "For hydrating objects according to this interface."
   }
 }

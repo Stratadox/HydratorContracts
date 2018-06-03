@@ -14,10 +14,10 @@ interface ObservesHydration
      * This method will be called by the hydrator on the registered observer.
      *
      * Not all hydrators accept observers. Hydrators that do accept one or more
-     * observers will offer constructor methods that accepts (an) argument(s) of
-     * this interface.
+     * observers will offer constructor methods that accept an argument of this
+     * interface.
      *
-     * @param object $theInstance   The instance that is being hydrated.
+     * @param object $theInstance The instance that is being hydrated.
      */
     public function hydrating($theInstance) : void;
 }
