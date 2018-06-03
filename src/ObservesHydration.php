@@ -19,5 +19,5 @@ interface ObservesHydration
      *
      * @param object $theInstance The instance that is being hydrated.
      */
-    public function hydrating($theInstance) : void;
+    public function hydrating(object $theInstance) : void;
 }
