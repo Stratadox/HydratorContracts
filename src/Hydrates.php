@@ -8,7 +8,7 @@ namespace Stratadox\Hydrator;
  * @author Stratadox
  * @package Stratadox\Hydrate
  */
-interface HydratesObjects
+interface Hydrates
 {
     /**
      * Hydrates input data into the properties of an object.
