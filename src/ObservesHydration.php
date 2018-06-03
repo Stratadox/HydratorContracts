@@ -7,6 +7,7 @@ namespace Stratadox\Hydrator;
  *
  * @author Stratadox
  * @package Stratadox\Hydrate
+ * @deprecated
  */
 interface ObservesHydration
 {
