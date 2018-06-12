@@ -15,8 +15,7 @@ interface Hydrates
      *
      * @param object $target The target object to hydrate.
      * @param array $input   The input data.
-     * @return object        The hydrated result object.
      * @throws CannotHydrate When the input data could not be hydrated.
      */
-    public function writeTo(object $target, array $input): object;
+    public function writeTo(object $target, array $input): void;
 }
